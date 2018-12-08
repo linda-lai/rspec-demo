@@ -8,14 +8,24 @@ RSpec.describe Calculator do
         end
     end
 
-    context "when passed a number" do
-        it "should return true if even" do
-            expect(subject.calculate_odd_or_even(2)).to eq true
+    context "when odd_or_even is called" do
+        it "should return even passed 2" do
+          expect(subject.calculate_odd_or_even(2)).to eq 'even'
         end
-
-        it "should return false if odd" do
-            expect(subject.calculate_odd_or_even(3)).to eq false
+    
+        it "should return odd when passed 3" do
+          expect(subject.calculate_odd_or_even(3)).to eq 'odd'
         end
-    end
+    
+        it "should return even when passed 4" do
+          expect(subject.calculate_odd_or_even(4)).to eq 'even'
+        end
+      end
 
 end
+
+# def when_initialised
+#   def instance_of_class
+#     Calculator.new.class == 'Calculator'
+#   end
+# end
