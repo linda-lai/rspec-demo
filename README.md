@@ -1,6 +1,10 @@
 # RSpec
 Notes and practice creating and testing Ruby code with RSpec.
 
+|[![Linda Lai](contributors-linda-lai-70x70.jpg)](https://github.com/linda-lai) |
+|-----------|
+| Linda Lai |
+
 ## Folder Setup
 Create a new folder:
 ```
